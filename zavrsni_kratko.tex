@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[croatian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+%\usepackage{setspace}
+\usepackage{parskip} %razmak izmedju paragrafa i uvlacenje prvog retka
+\usepackage{mathpazo}
+
+\usepackage{tabularx}
+
+
+\title{Kratke upute za izradu završnog rada}
+\author{Ljiljana Despalatović}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section{Version control system}
+Pri izradi završnog rada nužno je koristiti neki od sustava za kontrolu verzija. Ideja je da se omogući praćenje promjena u programskom k\^odu i u dokumentaciji uz komentiranje, što omogućava povratak na prijašnje verzije. Neki od sustava za kontrolu verzija su:  
+\begin{itemize}
+ \item git
+ \item svn 
+ \item mercurial
+ \item cvs
+\end{itemize}
+
+Odabrani sustav trebate lokalno instalirati, a onda dodati postojeće ili novokreirane datoteke vezane uz projekt u lokalni repozitorij. Raditi sa sustavom za kontrolu verzija možete iz komandne linije ili pomoću grafičkih klijenata (Gitextensions, SmartGit-Hg, Giggle, TortoiseGit).
+
+Osim praćenja promjena, ideja \textit{version control} sustava je kolaboracija. S obzirom da na završnom radu radite u kolaboraciji sa mentorom tj.~sa mnom, projekt bi se trebao nalaziti na nekom od centralnih web repozitorija. Najpopularniji su:
+\begin{itemize}
+ \item GitHub (git, svn)
+ \item Bitbucket (git, mercurial)
+ \item GitLab (git)
+ \item GNU Savannah (cvs, git, mercurial, svn) - samo za free softver projekte
+ \item SourceForge (cvs, git, mercurial, svn) - samo za open source projekte
+\end{itemize}
+
+Preporučena kombinacija je git/GitHub ili git/Bitbucket, ali mogu i ostale kombinacije. Možete i sami kreirati web repozitorij na nekom serveru kojem imate pristup (primjer \href{https://civicactions.com/blog/2010/may/25/how\_set\_svn\_repository\_7\_simple\_steps}{uputa} za svn repozitorij).
+
+\section{Timeline}
+ \setlength{\extrarowheight}{.5em}
+\begin{tabularx}{\linewidth}{Xr}
+\textsc{vremenski okvir}& \textsc{akcija}\\
+\hline
+svaki mjesec od 1.~do 8.~u mjesecu, u ispitnom roku prva tri tjedna roka & prijava obrane\\
+dva tjedna prije prijave & gotov rad na uvid komisiji\\
+tri tjedna prije prijave & gotov rad na uvid mentoru\\
+\hline
+\end{tabularx}
+\end{document}
