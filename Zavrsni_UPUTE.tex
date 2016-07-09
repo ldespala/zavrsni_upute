@@ -1,7 +1,15 @@
 \documentclass[12pt, a4paper]{article}
-\input{Zavrsni_preamble_obicni}
+\input{Zavrsni_preamble}
 \begin{document}
-\input{Zavrsni_frontmatter_obicni}
+\selectlanguage{croatian}
+\input{Zavrsni_frontmatter} % numeracija i naslovnice
+
+\input{Zavrsni_summary_hr}
+\selectlanguage{english}
+\input{Zavrsni_summary_en}
+\newpage
+
+\selectlanguage{croatian}
 \input{Zavrsni_uvod}
 \newpage
 \input{Zavrsni_kako_pisati}
