@@ -70,6 +70,24 @@ Primjerice, na slici~\ref{fig:xfce} je prikazan jedan od bezbroj mogućih izgled
 %  \label{fig:xfce}  
 %\vspace{-10pt}
 %\end{figure}
+Tablice također treba biti referirana na barem jednom mjestu u tekstu, kao u sljedećem primjeru: U tablici~\ref{fig:ioesc} opisane su najčešće \textit{escape} sekvence.
+
+\begin{tabularx}{0.9\textwidth}{@{}lX@{}}
+\toprule
+oznaka&opis \\
+\midrule 
+\lstinline!\\n!&novi red \\
+\lstinline!\\t!&horizontalni tab\\
+\lstinline!\\v!&vertikalni tab\\
+\lstinline!\\'!&apostrof \\
+\lstinline!\\"!&dvostruki navodnik \\
+\lstinline!\\\\!&\textit{backslash} znak \\
+\lstinline!\\?!&upitnik\\
+\bottomrule
+\caption{Escape sekvence}\label{fig:ioesc}
+%\endlastfoot
+\end{tabularx}
+
 
 K\^od se piše fontom u kojem su sva slova jednake širine. Primjer takvog fonta je \texttt{courier}. Listu slobodnih \textit{monospace} fontova možete naći na stranicama \url{http://www.fontsquirrel.com/fonts/list/classification/monospaced}. 
 Veličina slova treba biti nešto manja nego u običnom tekstu. Primjer k\^oda je dan u ispisu~\ref{program}.
